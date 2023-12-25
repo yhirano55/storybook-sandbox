@@ -11,6 +11,9 @@ const config: StorybookConfig = {
   framework: {
     name: "@storybook/react-vite",
     options: {},
+    builder: {
+      useSWC: true,
+    },
   },
   docs: {
     autodocs: "tag",
